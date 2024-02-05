@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prve Vježbe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <caption>1. Vježbe</caption>
+    <table border="1">
+        <tr>
+            <td>Quick</td>
+            <td colspan="2">brown fox</td>
+            <td>jumps</td>
+        </tr>
+        <tr>
+            <td rowspan="3">over the</td>
+            <td>lazy</td>
+            <td>dog</td>
+            <td>and</td>
+        </tr>
+        <tr>
+            <td>then</td>
+            <td>it</td>
+            <td>fall</td>
+        </tr>
+        <tr>
+            <td colspan="3">prey to a lion</td>
+        </tr>
+    </table> 
+    <br><br>
+
+    <!--Opisna lista-->
+    <h1>Životinje</h1>
+    <dl>
+        <dt>Lama</dt>
+        <dd>Visoka, vunena, četveronožna, šiljastih ušiju. Ponekad je jasna, ali mrzovoljna i puno pljuje.</dd>
+    </dl>
+    <dl>
+        <dt>Anakonda</dt>
+        <dd>Vrlo velika zmija stezača; putuje brzo putem sidra kako bi se prišuljala svome plijenu.</dd>
+    </dl>
+    <dl>
+        <dt>Nilski konj</dt>
+        <dd>Njegov opis je bez granica.</dd>
+    </dl>
+    <br><br>
+
+    <!--Citiranje-->
+    <p>Počnimo s citatom</p>
+    <blockquote cite="https://www.w3schools.com/">
+        <p><abbr title="Hypertext Markup Language">HTML</abbr> prema zadanim je postavkama dostupan ako se pravilno koristi.</p>
+    </blockquote>
+    <p><abbr title="Cascading Style Sheets">CSS</abbr> se također može koristiti kako bi web stranice bile više ili manje raspoložive.</p>
+    <p>Kemijske formule: H<sub>2</sub>0(voda), C<sub>2</sub>H<sub>6</sub>OH (etanol).</p>
+    <p>
+        <time datetime="2019-12-25">Datumi: 25<sup>ti</sup> prosinca 2019. (Božić)</time>, 
+        <time datetime="2019-11-02">2<sup>og</sup> studenog 2019. (Dušni dan)</time>.
+    </p>
+    <br><br>
+
+    <!--Color Picker-->
+    <label for="color-picker">Odaberi boju: </label>
+    <input type="color" id="color-picker" name="color-picker">
+    <input type="color" id="color-picker" name="color-picker">
+    <input type="color" id="color-picker" name="color-picker">
+    <br><br>
+
+    <!--Slike-->
+    <figure>
+        <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+        <figcaption>W3Schools.com</figcaption>
+    </figure>
+    <br><br>
+
+    <!--Forme-->
+    <form method="post">
+        <h1>Payment form</h1>
+        <p>Required fields are followed by *.</p>
+        <section id="contact">
+            <h2>Contact information</h2>
+            <label for="title">Title</label><br>
+            <input type="radio" id="title1" name="title" value="A">Ace<br>
+            <input type="radio" id="title2" name="title" value="B">King<br>
+            <input type="radio" id="title3" name="title" value="C">Queen<br>
+
+            <label for="name">Name: *</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="mail">E-mail: *</label><br>
+            <input type="email" id="mail" name="mail" required><br>
+
+            <label for="pwd">Password: *</label><br>
+            <input type="password" id="pwd" name="password" required><br>
+        </section><br>
+
+        <section id="payment">
+            <h2>Payment information</h2>
+            <label for="card">Card type:</label><br>
+            <select id="card" name="card" required>
+                <option value="visa" default>Visa</option>
+                <option value="mc">Mastercard</option>
+                <option value="amex">American Express</option>
+            </select><br>
+
+            <label for="number">Card number: *</label><br>
+            <input type="text" id="number" name="number" required><br>
+
+            <label for="date">Expiration date: *</label><br>
+            <input type="text" id="date" name="date" placeholder="MM/YY"><br>
+        </section><br>
+
+            <button type="submit">Validate the payment</button>
+
+    </form>
+    <br><br>
+    
+    <!--CSS-->
+    <p>Ovo je animacija (klizanje teksta) koja traje tri sekunde.</p>
+
+</body>
+</html>
