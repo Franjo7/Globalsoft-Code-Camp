@@ -1,0 +1,296 @@
+/* 
+
+VJEZBA-1.1
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ball {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 50%;
+    animation-duration: 2s;
+    animation-name: change-color;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes change-color {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: blue;
+        height: 200px;
+        width: 200px;
+    }
+}
+
+*/
+
+
+
+
+/* 
+
+VJEZBA-1.2
+
+#transition-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    border-radius: 8px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    padding: 16px 24px;
+    text-align: center;
+}
+
+button {
+    transition: transform .3s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+*/
+
+
+
+
+/* 
+
+VJEZBA-2
+
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    max-width: 700px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a:link, nav a:visited {
+    background-color: #4d7298;
+    border: 2px solid #77a6b6;
+    border-radius: 0.5em;
+    color: #fff;
+    padding: 0.5em;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+*/
+
+
+
+
+/* 
+
+VJEZBA-3
+
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 1em;
+}
+
+ul {
+    max-width: 700px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+}
+
+li {
+    background-color: #4d7298;
+    border: 2px solid #77a6b6;
+    border-radius: 0.5em;
+    color: #fff;
+    padding: 0.5em;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+*/
+
+
+
+
+/*
+
+VJEZBA-4
+
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 1em;
+}
+
+.parent {
+    border: 2px solid #77a6b6;
+    border-radius: 0.5em;
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    display: flex;
+}
+
+.child {
+    background-color: #4d7298;
+    color: #fff;
+    padding: 0.5em;
+    width: 150px;
+    align-self: center;
+}
+
+*/
+
+
+
+
+/* 
+
+VJEZBA-5
+
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 1em;
+}
+
+ul {
+    width: 400px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+li {
+    background-color: #4d7298;
+    border: 2px solid #77a6b6;
+    border-radius: 0.5em;
+    color: #fff;
+    padding: 0.5em;
+    margin: 0.5em;
+    flex: auto;
+}
+
+*/
+
+ 
+
+
+/*
+
+VJEZBA-6
+
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 1em;
+}
+
+.grid > * {
+    background-color: #4d7298;
+    border: 2px solid #77a6b6;
+    border-radius: 0.5em;
+    color: #fff;
+    padding: 0.5em;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+*/
+
+
+
+
+/*
+
+VJEZBA-7
+
+body {
+    background-color: #fff;
+    color: #333;
+    font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 1em;
+}
+
+.grid > * {
+    border-radius: 0.5em;
+    color: #fff;
+    padding: 0.5em;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    gap: 10px;
+}
+
+.item1 {
+    background-color: #4d7298;
+    border: 5px solid #77a6b6;
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+}
+
+.item2 {
+    background-color: #8e717c;
+    border: 5px solid #77a6b6;
+    grid-column: 2 / 5;
+    grid-row: 2 / 4;
+}
+
+*/
