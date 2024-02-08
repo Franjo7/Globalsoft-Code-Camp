@@ -1,3 +1,5 @@
+/* Animacija za citiranje (vjezba 7) */	
+
 p {
     animation-duration: 3s;
     animation-name: slidein;
@@ -18,10 +20,5 @@ p {
         font-size: 300%;
         margin-left: 25%;
         width: 150%;
-    }
-
-    to {
-        margin-left: 0%;
-        width: 100%;
     }
 }
