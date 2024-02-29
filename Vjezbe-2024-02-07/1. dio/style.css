@@ -1,6 +1,53 @@
+/**
+ * Exercise 1.1:
+ * - Defines the styles for a container element and a ball element.
+ * - The container is a flex container that centers its content vertically and horizontally.
+ * - The ball is a red circle with a black border that animates its background color and size.
+ * 
+ * Exercise 1.2:
+ * - Defines the styles for a transition container and a button element.
+ * - The transition container is a flex container that centers its content vertically and horizontally.
+ * - The button has a blue background color and transitions to a larger size when hovered.
+ * 
+ * Exercise 2:
+ * - Defines the styles for the body, navigation menu, and container2.
+ * - The body has a white background color and uses the Helvetica Neue font.
+ * - The navigation menu has a blue background color and white text color.
+ * - The container2 is a flex container that evenly distributes its items horizontally.
+ * 
+ * Exercise 3:
+ * - Defines the styles for the body, unordered list, and list items.
+ * - The body has a white background color and uses the Helvetica Neue font.
+ * - The unordered list is a flex container that evenly distributes its items horizontally.
+ * - The list items have a blue background color and white text color.
+ * 
+ * Exercise 4:
+ * - Defines the styles for the body, parent container, and child element.
+ * - The body has a white background color and uses the Helvetica Neue font.
+ * - The parent container has a border and centers its content vertically.
+ * - The child element has a blue background color and white text color.
+ * 
+ * Exercise 5:
+ * - Defines the styles for the body and an unordered list.
+ * - The body has a white background color and uses the Helvetica Neue font.
+ * - The unordered list is a flex container that wraps its items and evenly distributes them.
+ * - The list items have a blue background color and white text color.
+ * 
+ * Exercise 6:
+ * - Defines the styles for the body and a grid container.
+ * - The body has a white background color and uses the Helvetica Neue font.
+ * - The grid container is a grid with three columns and a gap between the items.
+ * - The items in the grid have a blue background color and white text color.
+ * 
+ * Exercise 7:
+ * - Defines the styles for the body and a grid container.
+ * - The body has a white background color and uses the Helvetica Neue font.
+ * - The grid container is a grid with four columns, three rows, and a gap between the items.
+ * - The items in the grid have different background colors and borders.
+ */
 /* 
 
-VJEZBA-1.1
+Exercise 1.1
 
 .container {
     height: 100vh;
@@ -40,7 +87,7 @@ VJEZBA-1.1
 
 /* 
 
-VJEZBA-1.2
+Exercise 1.2
 
 #transition-container {
     height: 100vh;
@@ -77,7 +124,7 @@ button:hover {
 
 /* 
 
-VJEZBA-2
+Exercise 2
 
 body {
     background-color: #fff;
@@ -117,7 +164,7 @@ nav a:link, nav a:visited {
 
 /* 
 
-VJEZBA-3
+Exercise 3
 
 body {
     background-color: #fff;
@@ -154,7 +201,7 @@ li {
 
 /*
 
-VJEZBA-4
+Exercise 4
 
 body {
     background-color: #fff;
@@ -188,7 +235,7 @@ body {
 
 /* 
 
-VJEZBA-5
+Exercise 5
 
 body {
     background-color: #fff;
@@ -225,7 +272,7 @@ li {
 
 /*
 
-VJEZBA-6
+Exercise 6
 
 body {
     background-color: #fff;
@@ -256,7 +303,7 @@ body {
 
 /*
 
-VJEZBA-7
+Exercise 7
 
 body {
     background-color: #fff;

@@ -1,11 +1,20 @@
+/**
+ * Sets the box-sizing property to border-box for the html element.
+ */
 html {
     box-sizing: border-box;
 }
 
+/**
+ * Sets the box-sizing property to inherit for all elements and pseudo-elements.
+ */
 *, *::before, *::after {
     box-sizing: inherit;
 }
 
+/**
+ * The piano element.
+ */
 #piano {
     background-color: #00471b;
     width: 992px;
@@ -16,6 +25,9 @@ html {
     position: relative;
 }
 
+/**
+ * The container for the piano keys.
+ */
 .keys {
     background-color: #040404;
     width: 949px;
@@ -24,6 +36,9 @@ html {
     overflow: hidden;
 }
 
+/**
+ * Represents an individual piano key.
+ */
 .key {
     background-color: #fff;
     position: relative;
@@ -34,6 +49,9 @@ html {
     border-radius: 0 0 3px 3px;
 }
 
+/**
+ * The black keys of the piano.
+ */
 .key.black__keys::after {
     background-color: #1d1e22;
     content: "";
@@ -44,6 +62,10 @@ html {
     border-radius: 0 0 3px 3px;
 }
 
+/**
+ * Media query for screens with a maximum width of 768px.
+ * Adjusts the width of the piano and keys container.
+ */
 @media (max-width: 768px) {
     #piano {
         width: 358px;
@@ -53,6 +75,10 @@ html {
     }
 }
 
+/**
+ * Media query for screens with a minimum width of 769px and a maximum width of 1199px.
+ * Adjusts the width of the piano and keys container.
+ */
 @media (min-width: 769px) and (max-width: 1199px) {
     #piano {
         width: 675px;
