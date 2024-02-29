@@ -1,4 +1,22 @@
-/* Animacija za citiranje (vjezba 7) */	
+/**
+ * This CSS file contains styles for animating a quote. The animation is applied to <p> elements.
+ * The animation is defined using keyframes with the name "slidein". It gradually moves the element from right to left,
+ * changes its font size, and adjusts its width.
+ * 
+ * CSS Properties:
+ * - animation-duration: Specifies the duration of the animation in seconds.
+ * - animation-name: Specifies the name of the keyframe animation to be applied.
+ * 
+ * Keyframes:
+ * - from: Represents the starting state of the animation.
+ * - to: Represents the ending state of the animation.
+ * - 75%: Represents a keyframe at 75% of the animation duration.
+ * 
+ * Keyframe Properties:
+ * - margin-left: Specifies the left margin of the element.
+ * - width: Specifies the width of the element.
+ * - font-size: Specifies the font size of the element.
+ */
 
 p {
     animation-duration: 3s;
