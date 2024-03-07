@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background-image: url("drum-kit.png");
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(179, 22, 22);
+    font-size: 5rem;
+    font-style: italic;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+div {
+    margin: 10% auto;
+}
+
+button {
+    outline: none;
+    border: 10px solid rgb(179, 22, 22);
+    font-size: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: normal;
+    font-weight: bold;
+    color: rgb(179, 22, 22);
+    text-shadow: 2px 2px 4px #000000;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(185, 182, 182);
+}
